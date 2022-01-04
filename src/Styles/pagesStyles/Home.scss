@@ -1,0 +1,49 @@
+.home {
+  background-image: url('../../images/SpaceBackground.jpg');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 90vh;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  margin-top: 1rem;
+}
+
+.home-wrapper {
+  padding: 1rem;
+  display: flex;
+
+  ul {
+    width: 300px;
+    margin-top: 30px;
+    list-style-type: none;
+
+    button {
+      color: rgb(236, 255, 240);
+      padding: 1rem;
+      background-color: rgba(233, 220, 220, 0.1);
+      cursor: pointer;
+      border: 5px solid rgb(220, 220, 231);
+      font-size: 20px;
+      font-weight: 900;
+      margin: 3px;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: rgba(253, 253, 246, 0.5);
+      border: 5px solid transparent;
+    }
+  }
+}
+
+.footer {
+  height: 10vh;
+  background-color: rgb(247, 217, 217);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
